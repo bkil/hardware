@@ -125,3 +125,41 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
   * pl. $5/hó 1GB RAM, 1 vCPU, 25GB storage, 1TB transfer
   * 3 nap free trial (az $5-os gépre)
 * **$50 credit kupon** $10 feltöltés mellé
+
+# Nem ideális
+
+## Google App Engine
+
+* https://cloud.google.com/appengine/quotas
+  * korlátlanul/serverless: standard environment, 28h/nap frontend class (2.4GHz, 2GB RAM), 9h/nap backend class (4.8GHz, 2GB RAM), 1GB traffic ingyen
+  * nem biztos, hogy reálisan átfordítható a BOINC rá
+
+## Google Cloud Run
+
+* https://cloud.google.com/run/
+  * serverless: 2M/hó (50h/hó számítás, kb. 2GB RAM)
+
+## Heroku
+
+A következő pont vonatkozik rá a felhasználási feltételek szerint, bár ha ez nem volna akkor is elég körülményes volna futtatni rajta (előre becsomagolni a binárisokat, 25secenként snapshotolni, adatbázisba írni a checkpointot)
+
+* https://www.heroku.com/policy/aup
+
+> Prohibited Actions
+> ...
+> 11. Interfere with other users' enjoyment of the Service;
+
+# Benchmark
+
+##AWS, Azure, GCP, Oracle
+
+* https://blog.51sec.org/2019/03/free-tier-vps-bench-comparison-for-aws.html
+* https://github.com/n-st/nench
+
+## DigitalOcean vs. Linode vs. Vultr vs. OVH vs. Scaleway
+
+* https://www.webstack.de/blog/e/cloud-hosting-provider-comparison-2017/
+
+## LetBox
+
+* https://www.lowendtalk.com/discussion/114358/another-letbox-kvm-vps-free-trial-review
