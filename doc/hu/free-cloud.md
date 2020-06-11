@@ -60,10 +60,11 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 
 ## Digital Ocean
 
+* https://www.digitalocean.com/community/questions/is-there-free-trial-available
 * https://www.digitalocean.com/pricing/
   * Standard Droplet: $5/hó 1GB RAM 1vCPU, 1TB/hó transfer, 25GB SSD
   * https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm
-* **talán $50 (60 napra) vagy $100 (12 hónapra) ingyen credit?**
+* **elérhető $50 (60 napra) vagy $100 (12 hónapra) ingyen credit kupon**
 
 ## VPSWala
 
@@ -103,7 +104,7 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 
 ## CloudAtCost
 
-*https://members.cloudatcost.com/order.php?step=1&productGroup=28&product=166
+* https://members.cloudatcost.com/order.php?step=1&productGroup=28&product=166
   * 48 óra: 8 vCPU, 8GB RAM, 10GB NVMe
   * https://cloudatcost.com/terms-of-service
 
