@@ -93,6 +93,14 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
   * 30 napra: 1TB outbound, 1TB Cloud Block Storage
 * **max. $100 ingyen kredit (1db Cloud Server) 30 napra**
 
+## OVHcloud
+
+* https://www.ovhcloud.com/asia/public-cloud/prices/
+  * b2-7 $26.4+GST/hó, 2 vCore, 7GB RAM, 50GB SSD, 1TB egress
+  * https://www.ovh.com/asia/lp/public-cloud-trial/
+    * bankkártya vagy PayPal
+    * **$33 ingyen credit 1 hónapra**
+
 ## CloudAtCost
 
 *https://members.cloudatcost.com/order.php?step=1&productGroup=28&product=166
@@ -102,3 +110,17 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 > 10.5 In the event of abusive activity CloudatCost will take action shutting down a users server to protect the other customers. This may occur in the following situations..
 >
 > 10.5.2 any server which CPU (%) equals 100% for 30 minutes;
+
+## Linode
+
+* https://www.linode.com/pricing/
+  * pl. Nanode VM $5/hó 1GB RAM 1 vCPU, 25GB SSD, 1TB transfer
+  * pl. dedicated $30/hó 4GB RAM, 1 CPU, 80GB SSD, 4TB transfer
+* **$20-$100 credit kupon 90 napra**, talán $5 feltöltés kötelező
+
+## UpCloud
+
+* https://upcloud.com/pricing/
+  * pl. $5/hó 1GB RAM, 1 vCPU, 25GB storage, 1TB transfer
+  * 3 nap free trial (az $5-os gépre)
+* **$50 credit kupon** $10 feltöltés mellé
