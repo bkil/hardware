@@ -126,6 +126,13 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
   * 3 nap free trial (az $5-os gépre)
 * **$50 credit kupon** $10 feltöltés mellé
 
+## Civo
+
+* https://www.civo.com/pricing
+  * XSmall $5/hó+VAT 1 vCPU, 1GB RAM, 25GB SSD, 1TB transfer
+  * 7 napon belül kell bankkártyát megadni
+  * **$50 ingyen IaaS credit 1 hónapra**
+
 # Nem ideális
 
 ## Google App Engine
