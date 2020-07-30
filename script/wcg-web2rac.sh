@@ -17,24 +17,40 @@ main() {
   grep -E "\<(Valid|Pending Validation)\>" |
   sort -u |
   sed -rn "
-    s~^([^_]*)_([^\t]*\t){5}[^\t/]* / ([0-9]+.[0-9]+) *\t([0-9]+\.[0-9]+) / ([0-9]+\.[0-9]+)$~\1 \3 \4 \5~
+    s~^([^_]*)_[^\t]*\t([^\t]*)\t([^\t]*\t){3}[^\t/]* / ([0-9]+.[0-9]+) *\t([0-9]+\.[0-9]+) / ([0-9]+\.[0-9]+)$~\1 \2 \4 \5 \6~
     T e
     p
     :e
   " |
   awk -vCORES=$CORES -F" " '
     {
-      sumclaimed[$1] += $3 / $2
-      nclaimed[$1]++
+      sumclaimed[$2][$1] += $4 / $3
+      nclaimed[$2][$1]++
 
-      if ($4 > 0) {
-        sumgranted[$1] += $4 / $2
-        ngranted[$1]++
+      if ($5 > 0) {
+        sumgranted[$2][$1] += $5 / $3
+        ngranted[$2][$1]++
       }
     }
     END {
-      for (i in sumclaimed) {
-        print "* " i ": " sumclaimed[i] / nclaimed[i] * 24 * CORES " (# " nclaimed[i] ") claimed, " sumgranted[i] / ngranted[i] * 24 * CORES " (# " ngranted[i] ") granted (/" CORES "-core)"
+      for (j in sumclaimed) {
+        print "* **" j "** (/" CORES "-core)"
+        for (i in sumclaimed[j]) {
+          granted = ""
+          if (ngranted[j][i] > 0) {
+            granted = sprintf(\
+              ", %8.2f (#% 4d) granted",
+              sumgranted[j][i] / ngranted[j][i] * 24 * CORES,
+              ngranted[j][i])
+          }
+
+          printf(\
+            "* %-7s%8.2f (#% 4d) claimed%s\n",
+            i ":",
+            sumclaimed[j][i] / nclaimed[j][i] * 24 * CORES,
+            nclaimed[j][i],
+            granted)
+        }
       }
     }
   '
