@@ -3,7 +3,7 @@
 # under My Contribution -> Result Stauts -> Device Name: ..., Status: Valid
 
 main() {
-  local CORES="${1-16}"
+  local CORES="${1-1}"
   [ $# -gt 0 ] && shift 1
 
   cat "$@" |
@@ -34,7 +34,7 @@ main() {
     }
     END {
       for (i in sumclaimed) {
-        print "* " i ": " sumclaimed[i] / nclaimed[i] * 24 * CORES " (# " nclaimed[i] ") claimed, " sumgranted[i] / ngranted[i] * 24 * CORES " (# " ngranted[i] ") granted"
+        print "* " i ": " sumclaimed[i] / nclaimed[i] * 24 * CORES " (# " nclaimed[i] ") claimed, " sumgranted[i] / ngranted[i] * 24 * CORES " (# " ngranted[i] ") granted (/" CORES "-core)"
       }
     }
   '
