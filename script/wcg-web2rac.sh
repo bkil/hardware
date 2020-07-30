@@ -14,22 +14,27 @@ main() {
     s/\n(([^\t]*\t){5}[^\t]*)$/\1/
     :e
     " |
-  grep "\<Valid\>" |
+  grep -E "\<(Valid|Pending Validation)\>" |
   sort -u |
   sed -rn "
-    s~^([^_]*)_([^\t]*\t){5}[^\t/]* / ([0-9]+.[0-9]+)\t[^\t/]* / ([0-9]+\.[0-9]+)$~\1 \3 \4~
+    s~^([^_]*)_([^\t]*\t){5}[^\t/]* / ([0-9]+.[0-9]+) *\t([0-9]+\.[0-9]+) / ([0-9]+\.[0-9]+)$~\1 \3 \4 \5~
     T e
     p
     :e
   " |
   awk -vCORES=$CORES -F" " '
     {
-      sum[$1] += $3 / $2
-      count[$1]++
+      sumclaimed[$1] += $3 / $2
+      nclaimed[$1]++
+
+      if ($4 > 0) {
+        sumgranted[$1] += $4 / $2
+        ngranted[$1]++
+      }
     }
     END {
-      for (i in sum) {
-        print "* " i ": " sum[i] / count[i] * 24 * CORES " (# " count[i] ")"
+      for (i in sumclaimed) {
+        print "* " i ": " sumclaimed[i] / nclaimed[i] * 24 * CORES " (# " nclaimed[i] ") claimed, " sumgranted[i] / ngranted[i] * 24 * CORES " (# " ngranted[i] ") granted"
       }
     }
   '
