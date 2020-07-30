@@ -15,11 +15,14 @@ main() {
   " |
   awk -vCORES=$CORES -F" " '
     {
-      speed += $2 / $1
-      count++
+      if (($1 > 0) && ($2 > 0)) {
+        speed += $2 / $1
+        count++
+      }
     }
     END {
-      print CORES * speed / count * 3600 * 24 " task count: " count
+      if (count > 0)
+        print CORES * speed / count * 3600 * 24 " task count: " count
     }
   '
 }
