@@ -24,6 +24,7 @@ main() {
   " |
   awk -vCORES=$CORES -F" " '
     {
+      sumtime[$2][$1] += $3
       sumclaimed[$2][$1] += $4 / $3
       nclaimed[$2][$1]++
 
@@ -45,8 +46,9 @@ main() {
           }
 
           printf(\
-            "* %-7s%8.2f (#% 4d) claimed%s\n",
+            "* %-7s%5.1fh,%8.2f (#% 4d) claimed%s\n",
             i ":",
+            sumtime[j][i] / nclaimed[j][i],
             sumclaimed[j][i] / nclaimed[j][i] * 24 * CORES,
             nclaimed[j][i],
             granted)
