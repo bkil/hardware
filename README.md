@@ -1,3 +1,5 @@
 # hardware
 
-https://riot.grin.hu/?#/room/#hardver:grin.hu
+* https://matrix.grin.hu/?#/room/#hardver:grin.hu
+* https://gitlab.com/bkil/hardware
+* https://github.com/bkil/hardware
