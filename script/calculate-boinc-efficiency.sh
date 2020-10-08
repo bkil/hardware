@@ -43,29 +43,29 @@ awk -F"|" -vOFS="|" '
       racd_5yns = rac / d_5yns
       d_gflops_5y = d_5y / (rac / 200)
 
-      $24 = cache_t
-      $25 = racw
-      $26 = racd_5y
-      $27 = racd_5yns
-      $28 = d_5y
-      $29 = d_5yns
-      $30 = d_gflops_5y
+      $26 = cache_t
+      $27 = racw
+      $28 = racd_5y
+      $29 = racd_5yns
+      $30 = d_5y
+      $31 = d_5yns
+      $32 = d_gflops_5y
     } else if (NR == 1) {
-      $24 = "cache/t"
-      $25 = "RAC/W"
-      $26 = "RAC/$ 5y"
-      $27 = "RAC/$ 5y no-sell"
-      $28 = "$/5y"
-      $29 = "$/5y no-sell"
-      $30 = "$/GFLOPS 5y"
+      $26 = "cache/t"
+      $27 = "RAC/W"
+      $28 = "RAC/$ 5y"
+      $29 = "RAC/$ 5y no-sell"
+      $30 = "$/5y"
+      $31 = "$/5y no-sell"
+      $32 = "$/GFLOPS 5y"
     } else if (NR == 2) {
-      $24 = "-"
-      $25 = "-"
       $26 = "-"
       $27 = "-"
       $28 = "-"
       $29 = "-"
       $30 = "-"
+      $31 = "-"
+      $32 = "-"
     }
     print
   }
