@@ -2,15 +2,16 @@
 
 awk -F"|" -vOFS="|" '
   {
+    cols = 29
     if (NR > 2) {
-      w = $4
-      whetstone = $5
+      w = $3
+      whetstone = $4
       rac = $6
-      cost = $10 + $11 + $12 + $13
-      tdp = $15
-      core = $16
-      thread = $17
-      cache = $18
+      cost = $12 + $13 + $14 + $15
+      tdp = $18
+      core = $19
+      thread = $20
+      cache = $21
 
       if (rac == "") {
         effective_core = core
@@ -43,29 +44,29 @@ awk -F"|" -vOFS="|" '
       racd_5yns = rac / d_5yns
       d_gflops_5y = d_5y / (rac / 200)
 
-      $26 = cache_t
-      $27 = racw
-      $28 = racd_5y
-      $29 = racd_5yns
-      $30 = d_5y
-      $31 = d_5yns
-      $32 = d_gflops_5y
+      $(cols + 1) = cache_t
+      $(cols + 2) = racw
+      $(cols + 3) = racd_5y
+      $(cols + 4) = racd_5yns
+      $(cols + 5) = d_5y
+      $(cols + 6) = d_5yns
+      $(cols + 7) = d_gflops_5y
     } else if (NR == 1) {
-      $26 = "cache/t"
-      $27 = "RAC/W"
-      $28 = "RAC/$ 5y"
-      $29 = "RAC/$ 5y no-sell"
-      $30 = "$/5y"
-      $31 = "$/5y no-sell"
-      $32 = "$/GFLOPS 5y"
+      $(cols + 1) = "cache/t"
+      $(cols + 2) = "RAC/W"
+      $(cols + 3) = "RAC/$ 5y"
+      $(cols + 4) = "RAC/$ 5y no-sell"
+      $(cols + 5) = "$/5y"
+      $(cols + 6) = "$/5y no-sell"
+      $(cols + 7) = "$/GFLOPS 5y"
     } else if (NR == 2) {
-      $26 = "-"
-      $27 = "-"
-      $28 = "-"
-      $29 = "-"
-      $30 = "-"
-      $31 = "-"
-      $32 = "-"
+      $(cols + 1) = "-"
+      $(cols + 2) = "-"
+      $(cols + 3) = "-"
+      $(cols + 4) = "-"
+      $(cols + 5) = "-"
+      $(cols + 6) = "-"
+      $(cols + 7) = "-"
     }
     print
   }
