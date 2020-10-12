@@ -19,8 +19,10 @@ awk -F"|" -vOFS="|" '
           effective_core = (core + thread) / 2
         rac = 200 * effective_core * whetstone
       }
-      if (!(rac > 0))
+      if (!(rac > 0)) {
+        print
         next
+      }
 
       if (w == "") {
         base = 30
@@ -34,8 +36,10 @@ awk -F"|" -vOFS="|" '
       mp = core
       if (thread != "")
         mp = thread
-      if (!(mp > 0))
+      if (!(mp > 0)) {
+        print
         next
+      }
       cache_t = cache / mp
 
       d_5y = 5 * w + cost / 2
