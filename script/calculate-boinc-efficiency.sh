@@ -1,6 +1,6 @@
 #!/bin/sh
 
-awk -F"|" -vOFS="|" '
+awk -vFPAT='([^|"]|"")*|"([^"]|"")+"' -vOFS="|" '
   {
     cols = 29
     if (NR > 2) {
