@@ -55,7 +55,7 @@ DL380 G5 (2*2352)|||1.9|||||||||||0|2020-10||150|8|||2.1|||8|1800|Linux||
 N3700|||1.69|||||||||||66|2020-10||6|4||2|1.6||2.4||1600|Linux||
 X96 (S905X A53)|64-bit kernel, 32-bit userland, 70% PSU|2.5|1.17|2.878|800|2020-07-04|258|569|689|2020-10-12||||20|2020-05||2|4||0.75|1.2|||2|800|stock Android|ARM AArch64 Processor rev 4 (aarch64)|Android 3.14.29 (Android 7.1.2)
 Z3735F|||1.11|||||||||||66|2020-10||4|4||2|1.33||1.83||1333|Linux||
-rPi 3|32-bit kernel||0.955|15.207|||239|||2020-08-11||||||||4||||||1||Linux|ARM ARMv7 Processor rev 4 (v7l)|Linux 4.19.66-v7+
+rPi 3|32-bit kernel|5|0.955|15.207|||239|||2020-08-11||||16|2020-10|||4||||||1||Linux|ARM ARMv7 Processor rev 4 (v7l)|Linux 4.19.66-v7+
 rPi4|32-bit kernel||0.94|23.661||||||||5|5|55|2020-05|||4||1|1.5|||4|3200|Raspbian lite 32|ARM ARMv7 Processor rev 3 (v7l) [Impl 0x41 Arch 7 Variant 0x0 Part 0xd08 Rev 3]|"Linux Raspbian Raspbian GNU/Linux 10 (buster) [4.19.118-v7l+|libc 2.28 (Debian GLIBC 2.28-10+rpi1)]"
 N450||13|0.74|||||||||||66|2020-05||5.5|1|2|0.5|1.66|||1|667|Linux||
 rPi 2 Model B A7|||0.435|10.672|||154|||2020-10-07||||||||4|||0.9|||1||Raspbian||
