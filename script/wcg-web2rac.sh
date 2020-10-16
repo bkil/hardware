@@ -14,7 +14,7 @@ main() {
     s/\n(([^\t]*\t){5}[^\t]*)$/\1/
     :e
     " |
-  grep -E "\<(Valid|Pending Validation)\>" |
+  grep -E "\<(Valid|Pending Validation|Too Late)\>" |
   sort -u |
   sed -rn "
     s~^([^_]*)_[^\t]*\t([^\t]*)\t([^\t]*\t){3}[^\t/]* / ([0-9]+.[0-9]+) *\t([0-9]+\.[0-9]+) / ([0-9]+\.[0-9]+)$~\1 \2 \4 \5 \6~
