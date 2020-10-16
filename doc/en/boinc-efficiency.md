@@ -61,3 +61,8 @@ N450||13|0.74|||||||||||66|2020-05||5.5|1|2|0.5|1.66|||1|667|Linux||
 rPi 2 Model B A7|||0.435|10.672|||154|||2020-10-07||||16|2020-05|||4|||0.9|||1||Raspbian||
 rPi 1|||0.364|10.735|||29|||2020-10-07||||13|2020-05|||1|||0.7|||0.5||Raspbian||
 Bqeel U1 MAX (RK3328)|70% PSU|3.5|||||277|487||2020-07-07||||33|2020-05|||4||||||4||Android 9||
+MSM8274AA|Xperia Z1, Snapdragon 800|7.5|1.666|7.534|1063|2020-07-07||828||2020-07-07||||33|2020-05|||4||2|2.15|||2|800|Android|ARM ARMv7 Processor rev 0 (v7l) [Impl 0x51 Arch 7 Variant 0x2 Part 0x06f Rev 0]|Android 3.4.0-perf-gd26777b-00851-ga8b7b55 (Android 5.1.1)
+MSM8930AB|Samsung GT-I9195, Snapdragon 400|3.1|1.228|5.629|509||179|396||||||33|2020-05|||2||1|1.7|||1.5|533|Android|ARM ARMv7 Processor rev 0 (v7l)|Android 3.4.0-3173303 (Android 4.4.2)
+MT8127|Lenovo Tab2A7-10F, Cortex A7|1.6|0.825|2.265||||||||||||||4|||1.3|||1|667|Android|ARM ARMv7 Processor rev 3 (v7l)|Android 3.4.67 (Android 4.4.2)
+RK3126|Lark FreeMe X4 7HD, Cortex A7, measured on 2 cores due to RAM|1.5|0.617|1.8||||||||||||||4|||1|||0.5|1066|Android|ARM ARMv7 Processor rev 5 (v7l)|Android 3.10.0 (Android 4.4.4)
+MT6572|ALLVIEW A4You, Cortex A7|0.5|0.743|2.22||||||||||||||2||0.375|1|||0.5|266|Android|ARM ARMv7 Processor rev 3 (v7l) [Impl 0x41 Arch 7 Variant 0x0 Part 0xc07 Rev 3]|Android 3.4.67 (Android 4.4.2)
