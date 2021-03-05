@@ -9,7 +9,7 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 ## Amazon AWS
 
 * https://aws.amazon.com/free/
-  * 1 hónap Lightsail VPS: 1 CPU, 512MB RAM, 1TB/hó outbound
+  * 750 óra (kb. 30 nap) Lightsail VPS: 1 CPU, 512MB RAM, 1TB/hó outbound az első naptári hónapon belül
   * 12 hónap EC2 VM, 750óra/hó: t3.micro, 2 CPU (részben), 1GB/hó outbound (CloudFront ingyenes), 1GB RAM, + 30GB EBS
     * https://aws.amazon.com/ec2/pricing/on-demand/
   * serverless: AWS Lambda, 1M/hó (3.2Msec/hó)
@@ -51,11 +51,12 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * https://www.oracle.com/cloud/free/#free-cloud-trial
   * korlátlanul: 2 * VM.Standard.E2.1.Micro Free (1/8 OCPU, AMD EPYC 7551, 1GB RAM, 50GB block volume, 10TB/hó outbound)
 * **$300 ingyen kredit 30 napra**
+  * max. 8 gép párhuzamosan
 
 ## Alibaba Cloud
 
 * https://www.alibabacloud.com/campaign/free-trial
-  * 12hónap ECS Burstable Type t5 1-mag 1GB (vagy 3 hónap 2-mag 2GB), 40GB SSD, "1MB Internet bandwidth" (1MB/hó?)
+  * 12hónap ECS Burstable Type t5 1 mag 1GB (vagy 3 hónap 2 mag 2GB), 40GB SSD, "1MB Internet bandwidth" (1MB/hó?)
   * korlátlanul: Function Compute 1M/hó (400TB*sec/hó)
 
 ## Digital Ocean
