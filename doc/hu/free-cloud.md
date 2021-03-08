@@ -159,7 +159,7 @@ A következő pont vonatkozik rá a felhasználási feltételek szerint, bár ha
 
 # Benchmark
 
-##AWS, Azure, GCP, Oracle
+## AWS, Azure, GCP, Oracle
 
 * https://blog.51sec.org/2019/03/free-tier-vps-bench-comparison-for-aws.html
 * https://github.com/n-st/nench
