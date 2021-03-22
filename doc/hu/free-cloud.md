@@ -18,6 +18,13 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * https://boinc.berkeley.edu/trac/wiki/CloudServer
 * Időnként webinarok mellett osztogatnak ingyen creditet
 
+## fly.io
+
+* https://fly.io/docs/about/pricing/
+  * korlátlanul?
+  * 8,436,960 shared-cpu-1x másodperc/hó (3 VM 24/7)
+  * 100GB/hó kimenő forgalom
+
 ## IBM
 
 * https://www.ibm.com/cloud/free
