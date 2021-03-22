@@ -17,9 +17,10 @@ i7-7700K||115|6.1||||||||25|40|30|150|2020-05||91|4|8|8|4.2||4.5|8|2400|Linux||
 i7-7500U|||4.92||3345|2020-06-03|||||||||||15|2|4|4|2.7||3.5|8|2133|Linux||
 2700X||162|4.84||||||||70|45|60|200|2020-05||105|8|16|20|3.7||4.3|16|2933|Linux||
 i5-3570S|||4.685|112.745|4500|||||||||||3.9625|65|4||6|3.1|3.2|3.8|8|1333|Linux|GenuineIntel Intel(R) Core(TM) i5-3570S CPU @ 3.10GHz [Family 6 Model 58 Stepping 9]|"Linux Ubuntu Ubuntu 20.04.2 LTS [5.4.0-67-generic|libc 2.31 (Ubuntu GLIBC 2.31-0ubuntu9.2)]"
-E3-1240 V2||95|4.544|63.513|6800|2021-03-21||||||||||4|69|4|8|8|3.4|3.6|3.8|6|1600|Linux|GenuineIntel Intel(R) Xeon(R) CPU E3-1240 V2 @ 3.40GHz [Family 6 Model 58 Stepping 9]|"Linux Ubuntu Ubuntu 20.04.2 LTS [5.8.0-43-generic|libc 2.31 (Ubuntu GLIBC 2.31-0ubuntu9.2)]"
 i7-6700K|||4.59||5508|2020-10-08|||||||||||91|4|8|8|4||4.2|16|2133|Windows 10 x64||
 2400G|||4.57||5316|2020-06-02|||||35|45|60|117|2020-05||65|4|8|6|3.6||3.9|8|2933|Linux||
+E3-1240 V2||95|4.544|63.513|6800|2021-03-21||||||||||4|69|4|8|8|3.4|3.6|3.8|6|1600|Linux|GenuineIntel Intel(R) Xeon(R) CPU E3-1240 V2 @ 3.40GHz [Family 6 Model 58 Stepping 9]|"Linux Ubuntu Ubuntu 20.04.2 LTS [5.8.0-43-generic|libc 2.31 (Ubuntu GLIBC 2.31-0ubuntu9.2)]"
+G2120||48|4.533|115.144|2040|2021-03-21|1718|||2020-10-16||||||3.48|55|2||3|3.1||||1600|Linux Ubuntu 18.04.5||
 1700X||161|4.4||||||||76|33|57|133|2020-05||95|8|16|20|3.4||3.8|16|2667|Linux||
 2700|bargain|110|4.18||||||||76|33|57|133|2020-06||65|8|16|20|3.2||4.1|16|2933|Linux||
 2700||110|4.18||||||||70|45|60|200|2020-05||65|8|16|20|3.2||4.1|16|2933|Linux||
@@ -29,7 +30,6 @@ G850|with mitigations, with GeForce 210|75|4.11||1690|2020-10-09||||||||||3.12|6
 i7-3770K|||4.09|||||||||||100|2020-10||77|4|8|8|3.5||3.9|8|1600|Linux||
 1700||130|4.08||||||||76|33|57|133|2020-05||65|8|16|20|3||3.7|16|2667|Linux||
 i7 960|80% 400W PSU|185|4.01||5411|2020-10-07|||||||||||130|4|8|8|3.2||3.46|24|1066|Linux||
-G2120||48|4.533|115.144|2040|2021-03-21|1718|||2020-10-16||||||3.48|55|2||3|3.1||||1600|Linux Ubuntu 18.04.5||
 Athlon X2 250|350W PSU|80|3.86||1500|2020-10-02|1114|1051||2020-10-07|||||||65|2||2|3|||8|1333|Linux||
 E5-2650L v4|VPS Aruba Smart $4/mo (1 thread of 28)||3.75||758|2020-06-19|||||||||||2.3|1||1.25|1.7||2.5|1|2400|Linux||
 i5-2400|||3.74|9.486|2802|2020-10-13||||||||||4.16|95|4||6|3.1||3.4|12|1333|Windows 10 x64||
@@ -55,18 +55,18 @@ E4400|||1.99||638|2020-06-19|||||||||||65|2||2|2|||3|800|Linux||
 DL385P (2*6272)|||1.97|||||||||||200|2020-10||230|32||16|2.1|||32|1333|Linux||
 DL380 G5 (2*2352)|||1.9|||||||||||0|2020-10||150|8|||2.1|||8|1800|Linux||
 N3700|||1.69|||||||||||66|2020-10||6|4||2|1.6||2.4||1600|Linux||
+MSM8274AA|Xperia Z1, Snapdragon 800, thermal throttles above 3 cores|7.5|1.666|7.534|1063|2020-07-07|754|732|758|2020-07-07||||33|2020-05|||4||2|2.15|||2|800|Android|ARM ARMv7 Processor rev 0 (v7l) [Impl 0x51 Arch 7 Variant 0x2 Part 0x06f Rev 0]|Android 3.4.0-perf-gd26777b-00851-ga8b7b55 (Android 5.1.1)
+Bqeel U1 MAX (RK3328)|70% PSU|3.5|1.37|3.931|||277|487||2020-07-07||||33|2020-05|||4||||||4||Android 9||
+MSM8930AB|Samsung GT-I9195, Snapdragon 400|3.1|1.228|5.629|||191|||2020-10-24||||33|2020-05|||2||1|1.7|||1.5|533|Android|ARM ARMv7 Processor rev 0 (v7l)|Android 3.4.0-3173303 (Android 4.4.2)
 X96 (S905X A53)|64-bit kernel, 32-bit userland, 70% PSU|2.5|1.17|2.878|800|2020-07-04|256|587|457|2020-10-16||||20|2020-05||2|4||0.75|1.2|||2|800|stock Android|ARM AArch64 Processor rev 4 (aarch64)|Android 3.14.29 (Android 7.1.2)
 Z3735F|||1.11|||||||||||66|2020-10||4|4||2|1.33||1.83||1333|Linux||
 rPi 3|32-bit kernel|5|0.955|15.207|||239|||2020-08-11||||16|2020-10|||4||||||1||Linux|ARM ARMv7 Processor rev 4 (v7l)|Linux 4.19.66-v7+
 rPi4|32-bit kernel||0.94|23.661|||762|||2020-10-16||5|5|55|2020-05|||4||1|1.5|||4|3200|Raspbian lite 32|ARM ARMv7 Processor rev 3 (v7l) [Impl 0x41 Arch 7 Variant 0x0 Part 0xd08 Rev 3]|"Linux Raspbian Raspbian GNU/Linux 10 (buster) [4.19.118-v7l+|libc 2.28 (Debian GLIBC 2.28-10+rpi1)]"
+MT8127|Lenovo Tab2A7-10F, Cortex A7|1.6|0.825|2.265|||378|||2020-10-24||||||||4|||1.3|||1|667|Android|ARM ARMv7 Processor rev 3 (v7l)|Android 3.4.67 (Android 4.4.2)
+MT6572|ALLVIEW A4You, Cortex A7|1|0.743|2.22|||105|||2020-10-24||||||||2||0.375|1|||0.5|266|Android|ARM ARMv7 Processor rev 3 (v7l) [Impl 0x41 Arch 7 Variant 0x0 Part 0xc07 Rev 3]|Android 3.4.67 (Android 4.4.2)
 N450||13|0.74|||||||||||66|2020-05||5.5|1|2|0.5|1.66|||1|667|Linux||
+MT8735M|eSTAR grand hd quad core, Cortex A53, power on 2 cores due to application|1.6|0.661|2.105|||156|||2020-10-24||||||||4|||1.3|||1||Android|ARM ARMv7 Processor rev 5 (v7l) [Impl 0x41 Arch 7 Variant 0x0 Part 0xc07 Rev 5]|Android 3.10.0 (Android 6.0.1)
+RK3126|Lark FreeMe X4 7HD, Cortex A7, power on 2 cores due to RAM|1.5|0.617|1.8|||138|||2020-10-24||||||||4|||1|||0.5|1066|Android|ARM ARMv7 Processor rev 5 (v7l)|Android 3.10.0 (Android 4.4.4)
 rPi 2 Model B A7|||0.435|10.672|||154|||2020-10-07||||16|2020-05|||4|||0.9|||1||Raspbian||
 rPi 1|||0.364|10.735|||29|||2020-10-07||||13|2020-05|||1|||0.7|||0.5||Raspbian||
-Bqeel U1 MAX (RK3328)|70% PSU|3.5|1.37|3.931|||277|487||2020-07-07||||33|2020-05|||4||||||4||Android 9||
-MSM8274AA|Xperia Z1, Snapdragon 800, thermal throttles above 3 cores|7.5|1.666|7.534|1063|2020-07-07|754|732|758|2020-07-07||||33|2020-05|||4||2|2.15|||2|800|Android|ARM ARMv7 Processor rev 0 (v7l) [Impl 0x51 Arch 7 Variant 0x2 Part 0x06f Rev 0]|Android 3.4.0-perf-gd26777b-00851-ga8b7b55 (Android 5.1.1)
-MSM8930AB|Samsung GT-I9195, Snapdragon 400|3.1|1.228|5.629|||191|||2020-10-24||||33|2020-05|||2||1|1.7|||1.5|533|Android|ARM ARMv7 Processor rev 0 (v7l)|Android 3.4.0-3173303 (Android 4.4.2)
-MT8127|Lenovo Tab2A7-10F, Cortex A7|1.6|0.825|2.265|||378|||2020-10-24||||||||4|||1.3|||1|667|Android|ARM ARMv7 Processor rev 3 (v7l)|Android 3.4.67 (Android 4.4.2)
-RK3126|Lark FreeMe X4 7HD, Cortex A7, power on 2 cores due to RAM|1.5|0.617|1.8|||138|||2020-10-24||||||||4|||1|||0.5|1066|Android|ARM ARMv7 Processor rev 5 (v7l)|Android 3.10.0 (Android 4.4.4)
-MT6572|ALLVIEW A4You, Cortex A7|1|0.743|2.22|||105|||2020-10-24||||||||2||0.375|1|||0.5|266|Android|ARM ARMv7 Processor rev 3 (v7l) [Impl 0x41 Arch 7 Variant 0x0 Part 0xc07 Rev 3]|Android 3.4.67 (Android 4.4.2)
 SC7731|Lenovo A1000, Cortex A7|||||||||||||||||4||0.75|1.3|||1||Android||
-MT8735M|eSTAR grand hd quad core, Cortex A53, power on 2 cores due to application|1.6|0.661|2.105|||156|||2020-10-24||||||||4|||1.3|||1||Android|ARM ARMv7 Processor rev 5 (v7l) [Impl 0x41 Arch 7 Variant 0x0 Part 0xc07 Rev 5]|Android 3.10.0 (Android 6.0.1)
