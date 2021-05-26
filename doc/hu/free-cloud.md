@@ -42,6 +42,13 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * https://boinc.berkeley.edu/trac/wiki/CloudServer
 * Időnként webinarok mellett osztogatnak ingyen creditet
 
+### atlantic.net
+
+* https://www.atlantic.net/
+  * 12hónap: G3.2GB Cloud VPS, 1 vCPU, 2GB RAM, 50GB SSD block storage, 3TB/hó forgalom
+  * USA-EAST-1 (Orlando, FL), USA-EAST-2 (New York City, NY), USA-EAST-3 (Ashburn, VA), USA-WEST-1 (San Francisco, CA), CANADA-EAST-1 (Toronto, ON)
+* valószínűleg szükséges: bankkártyaszám, telefonszám, cím
+
 ### Microsoft Azure
 
 * https://azure.microsoft.com/en-us/free/
