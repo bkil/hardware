@@ -4,9 +4,33 @@ Vannak szolgáltatók aki bizonyos próbaidőre (1 hónap vagy 1 év) vagy pedig
 
 Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne ezt bemérni és jobban hirdetni.
 
-# Lehetőségek
+## Korlátlan VM
 
-## Amazon AWS
+### Google Cloud Platform
+
+* https://cloud.google.com/free
+  * korlátlanul: Compute Engine f1-micro: 1 CPU (20%), 0.6GB RAM, 1GB/hó outbound, +30GB HDD
+  * serverless: Cloud Functions 2M/hó
+* bankkartyaszám vagy bankszámlaszám szükséges
+* https://www.reddit.com/r/BOINC/comments/3756wg/use_the_300_credit_from_googlecloudcompute_for/
+* **$300 ingyen credit 12 hónapra**
+
+### Oracle Cloud
+
+* https://www.oracle.com/cloud/free/#free-cloud-trial
+  * korlátlanul: 2 * VM.Standard.E2.1.Micro Free (1/8 OCPU, AMD EPYC 7551, 1GB RAM, 50GB block volume, 10TB/hó outbound)
+* **$300 ingyen kredit 30 napra**
+  * max. 8 gép párhuzamosan
+
+## 1 évre VM
+
+### Alibaba Cloud
+
+* https://www.alibabacloud.com/campaign/free-trial
+  * 12hónap ECS Burstable Type t5 1 mag 1GB (vagy 3 hónap 2 mag 2GB), 40GB SSD, "1MB Internet bandwidth" (1MB/hó?)
+  * korlátlanul: Function Compute 1M/hó (400TB*sec/hó)
+
+### Amazon AWS
 
 * https://aws.amazon.com/free/
   * 750 óra (kb. 30 nap) Lightsail VPS: 1 CPU, 512MB RAM, 1TB/hó outbound az első naptári hónapon belül
@@ -18,24 +42,7 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * https://boinc.berkeley.edu/trac/wiki/CloudServer
 * Időnként webinarok mellett osztogatnak ingyen creditet
 
-## fly.io
-
-* https://fly.io/docs/about/pricing/
-  * korlátlanul?
-  * 8,436,960 shared-cpu-1x másodperc/hó (3 VM 24/7)
-  * 100GB/hó kimenő forgalom
-
-## IBM
-
-* https://www.ibm.com/cloud/free
-* 30 nap Hyper Protect Virtual Server Free: 1 vCPU, 2GB RAM, 250GB/hó outbound, +50GB HDD
-* https://www.ibm.com/cloud/bandwidth
-  * > 250 GB is included with each monthly virtual server
-* pl. Virtual Server C1.32x32 32GB RAM, 32-core, $0.27/h, 25GB SAN, 250GB/hó outbound (vagy 0GB/hó, nehéz értelmezni), 
-* bankkártyával sokkal többet ad, de mintha anélkül is lenne valami
-* **$200 ingyen credit 30 napra**
-
-## Microsoft Azure
+### Microsoft Azure
 
 * https://azure.microsoft.com/en-us/free/
   * 12 hónap B1S VM, 750óra/hó: 1 CPU (részben), 1GB RAM, 5GB/hó outbound, +64GB*2 SDD
@@ -44,55 +51,19 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * bankkártyaszám szükséges
 * **$300 ingyen credit 30 napra**
 
-## Google Cloud Platform
+## 30 napra VM
 
-* https://cloud.google.com/free
-  * korlátlanul: Compute Engine f1-micro:1 CPU (20%), 0.6GB RAM, 1GB/hó outbound, +30GB HDD
-  * serverless: Cloud Functions 2M/hó
-* bankkartyaszám vagy bankszámlaszám szükséges
-* https://www.reddit.com/r/BOINC/comments/3756wg/use_the_300_credit_from_googlecloudcompute_for/
-* **$300 ingyen credit 12 hónapra**
+### IBM
 
-## Oracle Cloud
+* https://www.ibm.com/cloud/free
+* 30 nap Hyper Protect Virtual Server Free: 1 vCPU, 2GB RAM, 250GB/hó outbound, +50GB HDD
+* https://www.ibm.com/cloud/bandwidth
+  * > 250 GB is included with each monthly virtual server
+* pl. Virtual Server C1.32x32 32GB RAM, 32-core, $0.27/h, 25GB SAN, 250GB/hó outbound (vagy 0GB/hó, nehéz értelmezni)
+* bankkártyával sokkal többet ad, de mintha anélkül is lenne valami
+* **$200 ingyen credit 30 napra**
 
-* https://www.oracle.com/cloud/free/#free-cloud-trial
-  * korlátlanul: 2 * VM.Standard.E2.1.Micro Free (1/8 OCPU, AMD EPYC 7551, 1GB RAM, 50GB block volume, 10TB/hó outbound)
-* **$300 ingyen kredit 30 napra**
-  * max. 8 gép párhuzamosan
-
-## Alibaba Cloud
-
-* https://www.alibabacloud.com/campaign/free-trial
-  * 12hónap ECS Burstable Type t5 1 mag 1GB (vagy 3 hónap 2 mag 2GB), 40GB SSD, "1MB Internet bandwidth" (1MB/hó?)
-  * korlátlanul: Function Compute 1M/hó (400TB*sec/hó)
-
-## Digital Ocean
-
-* https://www.digitalocean.com/community/questions/is-there-free-trial-available
-* https://www.digitalocean.com/pricing/
-  * Standard Droplet: $5/hó 1GB RAM 1vCPU, 1TB/hó transfer, 25GB SSD
-  * https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm
-* **elérhető $50 (60 napra) vagy $100 (12 hónapra) ingyen credit kupon**
-
-## VPSWala
-
-* https://vpswala.org/linux-vps.html
-  * 1hónap: 1vCPU, 25GB SSD, 1GB RAM, 1TB/hó átvitel
-
-## Vultr
-
-* https://www.vultr.com/promo/try50/
-  * pl. $6/hó High Frequency Compute, 32GB SSD, 1CPU, 1GB RAM, 1TB/hó transfer
-  * pl. $24/hó High Frequency Compute, 128GB SSD, 2CPU, 4GB RAM, 3TB/hó transfer
-  * pl. $10/hó 1CPU, 2GB RAM, 2TB/hó transfer, 55GB SSD
-* **$50 ingyen credit**
-
-## DediSERVE
-
-* https://www.dediserve.com/free-trial
-  * 72óráig ingyenes "Cloud Resources", 2GB bandwidth
-
-## Kamatera
+### Kamatera
 
 * https://www.kamatera.com/express/compute/resources.php?id=how_it_works&code=1
   * pl. $100/hó General Purpose 6 vCPU, 6GB RAM, 40GB SSD
@@ -102,7 +73,7 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
   * 30 napra: 1TB outbound, 1TB Cloud Block Storage
 * **max. $100 ingyen kredit (1db Cloud Server) 30 napra**
 
-## OVHcloud
+### OVHcloud
 
 * https://www.ovhcloud.com/asia/public-cloud/prices/
   * b2-7 $26.4+GST/hó, 2 vCore, 7GB RAM, 50GB SSD, 1TB egress
@@ -110,7 +81,57 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
     * bankkártya vagy PayPal
     * **$33 ingyen credit 1 hónapra**
 
-## CloudAtCost
+### VPSWala
+
+* https://vpswala.org/linux-vps.html
+  * 1hónap: 1vCPU, 25GB SSD, 1GB RAM, 1TB/hó átvitel
+
+## Rugalmas kuponos
+
+### Civo
+
+* https://www.civo.com/pricing
+  * XSmall $5/hó+VAT 1 vCPU, 1GB RAM, 25GB SSD, 1TB transfer
+  * 7 napon belül kell bankkártyát megadni
+  * **$50 ingyen IaaS credit 1 hónapra**
+
+### Digital Ocean
+
+* https://try.digitalocean.com/freetrialoffer/
+  * https://www.digitalocean.com/community/questions/is-there-free-trial-available
+  * https://www.digitalocean.com/pricing/
+  * Standard Droplet: $5/hó 1GB RAM 1vCPU, 1TB/hó transfer, 25GB SSD
+  * https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm
+* bankkártyaszám szükséges
+* **elérhető $100 (60 napra) ingyen credit kupon** (régebben $50-100 12 hónapra)
+
+### Vultr
+
+* https://www.vultr.com/promo/try50/
+  * pl. $6/hó High Frequency Compute, 32GB SSD, 1CPU, 1GB RAM, 1TB/hó transfer
+  * pl. $24/hó High Frequency Compute, 128GB SSD, 2CPU, 4GB RAM, 3TB/hó transfer
+  * pl. $10/hó 1CPU, 2GB RAM, 2TB/hó transfer, 55GB SSD
+* **$50 ingyen credit**
+
+## VM kupon csak feltöltés mellé
+
+### Linode
+
+* https://www.linode.com/pricing/
+  * pl. Nanode VM $5/hó 1GB RAM 1 vCPU, 25GB SSD, 1TB transfer
+  * pl. dedicated $30/hó 4GB RAM, 1 CPU, 80GB SSD, 4TB transfer
+* **$20-$100 credit kupon 90 napra**, talán $5 feltöltés kötelező
+
+### UpCloud
+
+* https://upcloud.com/pricing/
+  * pl. $5/hó 1GB RAM, 1 vCPU, 25GB storage, 1TB transfer
+  * 3 nap free trial (az $5-os gépre)
+* **$50 credit kupon** $10 feltöltés mellé
+
+## VM rövidebb időre
+
+### CloudAtCost
 
 * https://members.cloudatcost.com/order.php?step=1&productGroup=28&product=166
   * 48 óra: 8 vCPU, 8GB RAM, 10GB NVMe
@@ -120,41 +141,34 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 >
 > 10.5.2 any server which CPU (%) equals 100% for 30 minutes;
 
-## Linode
+### DediSERVE
 
-* https://www.linode.com/pricing/
-  * pl. Nanode VM $5/hó 1GB RAM 1 vCPU, 25GB SSD, 1TB transfer
-  * pl. dedicated $30/hó 4GB RAM, 1 CPU, 80GB SSD, 4TB transfer
-* **$20-$100 credit kupon 90 napra**, talán $5 feltöltés kötelező
+* https://www.dediserve.com/free-trial
+  * 72óráig ingyenes "Cloud Resources", 2GB bandwidth
 
-## UpCloud
+## Nem ideális
 
-* https://upcloud.com/pricing/
-  * pl. $5/hó 1GB RAM, 1 vCPU, 25GB storage, 1TB transfer
-  * 3 nap free trial (az $5-os gépre)
-* **$50 credit kupon** $10 feltöltés mellé
+## Függvény jellegűek
 
-## Civo
-
-* https://www.civo.com/pricing
-  * XSmall $5/hó+VAT 1 vCPU, 1GB RAM, 25GB SSD, 1TB transfer
-  * 7 napon belül kell bankkártyát megadni
-  * **$50 ingyen IaaS credit 1 hónapra**
-
-# Nem ideális
-
-## Google App Engine
+### Google App Engine
 
 * https://cloud.google.com/appengine/quotas
   * korlátlanul/serverless: standard environment, 28h/nap frontend class (2.4GHz, 2GB RAM), 9h/nap backend class (4.8GHz, 2GB RAM), 1GB traffic ingyen
   * nem biztos, hogy reálisan átfordítható a BOINC rá
 
-## Google Cloud Run
+### Google Cloud Run
 
 * https://cloud.google.com/run/
   * serverless: 2M/hó (50h/hó számítás, kb. 2GB RAM)
 
-## Heroku
+### fly.io
+
+* https://fly.io/docs/about/pricing/
+  * korlátlanul?
+  * 8,436,960 shared-cpu-1x másodperc/hó (3 VM 24/7)
+  * 100GB/hó kimenő forgalom
+
+### Heroku
 
 A következő pont vonatkozik rá a felhasználási feltételek szerint, bár ha ez nem volna akkor is elég körülményes volna futtatni rajta (előre becsomagolni a binárisokat, 25secenként snapshotolni, adatbázisba írni a checkpointot)
 
@@ -164,17 +178,17 @@ A következő pont vonatkozik rá a felhasználási feltételek szerint, bár ha
 > ...
 > 11. Interfere with other users' enjoyment of the Service;
 
-# Benchmark
+## Benchmark
 
-## AWS, Azure, GCP, Oracle
+### AWS, Azure, GCP, Oracle
 
 * https://blog.51sec.org/2019/03/free-tier-vps-bench-comparison-for-aws.html
 * https://github.com/n-st/nench
 
-## DigitalOcean vs. Linode vs. Vultr vs. OVH vs. Scaleway
+### DigitalOcean vs. Linode vs. Vultr vs. OVH vs. Scaleway
 
 * https://www.webstack.de/blog/e/cloud-hosting-provider-comparison-2017/
 
-## LetBox
+### LetBox
 
 * https://www.lowendtalk.com/discussion/114358/another-letbox-kvm-vps-free-trial-review
