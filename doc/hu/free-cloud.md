@@ -18,7 +18,9 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 ### Oracle Cloud
 
 * https://www.oracle.com/cloud/free/#free-cloud-trial
-  * korlátlanul: 2 * VM.Standard.E2.1.Micro Free (1/8 OCPU, AMD EPYC 7551, 1GB RAM, 50GB block volume, 10TB/hó outbound)
+  * korlátlanul: 2 * VM.Standard.E2.1.Micro Free: 1/8 OCPU (2 vCPU), AMD EPYC 7551, 1GB RAM, max. 200GB block volume, 10TB/hó outbound
+  * korlátlanul: 4 * ARM-based Ampere A1 cores, 24GB RAM, usable as one VM or up to 4 VMs
+    * 2 block volume storage, öszesen 200GB
 * **$300 ingyen kredit 30 napra**
   * max. 8 gép párhuzamosan
 
