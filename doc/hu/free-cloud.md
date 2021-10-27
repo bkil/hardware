@@ -155,7 +155,30 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * https://www.dediserve.com/free-trial
   * 72óráig ingyenes "Cloud Resources", 2GB bandwidth
 
+### ruvds
+
+* https://ruvds.com/en-usd/test_period
+  * 4 vCPU (3.4GHz, Intel Xeon, "Powerful"), 8GB RAM (DDR4 ECC), 30GB NVMe SSD, IPv4, korlátlan forgalom
+* **72 óra próbaidő max 3000 rúpia értékben ($60)**
+  * számlázás beállítása és SMS megerősítés szükséges
+
 ## Nem ideális
+
+### Yandex Cloud
+
+* Jelen pillanatban nem elérhető Magyarországon, és Oroszországon kívül csak üzleti felhasználóknak
+ * https://cloud.yandex.com/en/docs/billing/qa/non-resident
+* https://cloud.yandex.com/en/docs/free-trial/
+  * https://cloud.yandex.com/en/docs/free-trial/concepts/usage-grant
+  * max. 60 napra
+  * számlázás beállítása szükséges
+  * átutalásos számlázásnál: $15 Yandex Compute Cloud céljára, $35 egyéb Yandex.Cloud kiadásokra
+  * bankkártyás számlázásnál: $50 szabadon felhasználható
+* https://cloud.yandex.com/en/docs/billing/concepts/serverless-free-tier
+  * korlátlanul
+  * serverless: Cloud Functions
+  * 1GB/hó Serverless Yandex Database
+  * 1GB/hó Yandex Object Storage
 
 ## Függvény jellegűek
 
