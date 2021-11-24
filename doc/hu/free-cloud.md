@@ -62,6 +62,12 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 
 ## 30 napra VM
 
+### Clouding
+
+* https://clouding.io/en/
+* 5 EUR/hó: 0.5vCPU, 1GB RAM, 25GB NVMe SSD
+* **5 EUR ingyen kredit**
+
 ### IBM
 
 * https://www.ibm.com/cloud/free
@@ -104,6 +110,11 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
   * 7 napon belül kell bankkártyát megadni
   * **$50 ingyen IaaS credit 1 hónapra**
 
+### Lunanode
+
+* https://www.lunanode.com/
+* **$20 ingyen credit kupon** https://toys.lerdorf.com/low-cost-vps-testing#lunanode
+
 ### Digital Ocean
 
 * https://try.digitalocean.com/freetrialoffer/
@@ -137,6 +148,7 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
   * pl. $5/hó 1GB RAM, 1 vCPU, 25GB storage, 1TB transfer
   * 3 nap free trial (az $5-os gépre)
 * **$50 credit kupon** $10 feltöltés mellé
+* **$25 credit kupon** https://toys.lerdorf.com/low-cost-vps-testing#upcloud
 
 ## VM rövidebb időre
 
@@ -161,6 +173,12 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
   * 4 vCPU (3.4GHz, Intel Xeon, "Powerful"), 8GB RAM (DDR4 ECC), 30GB NVMe SSD, IPv4, korlátlan forgalom
 * **72 óra próbaidő max 3000 rúpia értékben ($60)**
   * számlázás beállítása és SMS megerősítés szükséges
+
+### vpsserver
+
+* https://www.vpsserver.com/
+* 1 nap próbaidő bankkártya nélkül
+* 7 nap próbaidő bankkártyával
 
 ## Nem ideális
 
@@ -224,3 +242,7 @@ A következő pont vonatkozik rá a felhasználási feltételek szerint, bár ha
 ### LetBox
 
 * https://www.lowendtalk.com/discussion/114358/another-letbox-kvm-vps-free-trial-review
+
+### Toys
+
+* https://toys.lerdorf.com/low-cost-vps-testing
