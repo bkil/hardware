@@ -228,6 +228,26 @@ A következő pont vonatkozik rá a felhasználási feltételek szerint, bár ha
 > ...
 > 11. Interfere with other users' enjoyment of the Service;
 
+### Replit
+
+* https://replit.com/site/pricing
+  * https://replit.com/site/hosting
+* 500MB tárhely
+* 500MB RAM
+* 0.2-0.5 vCPU
+  * alszik?
+
+### Glitch
+
+* https://glitch.com/pricing
+  * https://glitch.happyfox.com/kb/article/73-glitch-pro-what-s-that/
+* 200MB tárhely
+* 512MB RAM
+* 1000 óra/hó
+  * max. 4000 kérés/óra
+  * 5 perc kihasználatlanság után elalszik a dinamikus backend
+* statikus web hosting ami sosem alszik
+
 ## Benchmark
 
 ### AWS, Azure, GCP, Oracle
