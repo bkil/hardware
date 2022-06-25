@@ -14,6 +14,8 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * bankkartyaszám vagy bankszámlaszám szükséges
 * https://www.reddit.com/r/BOINC/comments/3756wg/use_the_300_credit_from_googlecloudcompute_for/
 * **$300 ingyen credit 12 hónapra**
+  * GitLab regisztrációval Kubernetes integrációhoz +$200
+  * https://about.gitlab.com/blog/2018/04/24/getting-started-gitlab-ci-gcp/
 
 ### Oracle Cloud
 
