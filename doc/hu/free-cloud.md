@@ -26,6 +26,12 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * **$300 ingyen kredit 30 napra**
   * max. 8 gép párhuzamosan
 
+### euserv
+
+* https://www.euserv.com/en/virtual-private-server/root-vserver/v2/vs2-free.php
+  * korlátlanul: 1 1GHz 64-bit CPU, 1GB RAM, 10 GB HDD, 0 IPv4, 1 IPv6, 1 TB/hó forgalom (afelett 1 Mbit/s)
+  * Linux Containers
+
 ## 1 évre VM
 
 ### Alibaba Cloud
