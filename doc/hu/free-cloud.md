@@ -104,6 +104,15 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
     * bankkártya vagy PayPal
     * **$33 ingyen credit 1 hónapra**
 
+### Railway.app
+
+* https://docs.railway.app/reference/pricing/free-trial
+* 500MB RAM, 1 osztott vCPU, adatbázis
+* $5 ingyen kredit
+* alacsony terhelés mellett akár több hónapra is elegendő
+* RAM $10/GB/hó (percenként), CPU $20/vCPU/hó (percenként), hálózat egress $0.1/GB
+* aktív GitHub fiókkal hitelesít, de nem kér hitelkártyát
+
 ### VPSWala
 
 * https://vpswala.org/linux-vps.html
@@ -222,9 +231,11 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 ### fly.io
 
 * https://fly.io/docs/about/pricing/
-  * korlátlanul?
-  * 8,436,960 shared-cpu-1x másodperc/hó (3 VM 24/7)
-  * 100GB/hó kimenő forgalom
+* korlátlanul
+* 8,436,960 shared-cpu-1x másodperc/hó (3 VM 24/7)
+* 256MB RAM
+* 3GB tartós tárhely
+* 160GB/hó kimenő forgalom
 
 ### Heroku
 
