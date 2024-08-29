@@ -157,7 +157,7 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * https://www.linode.com/pricing/
   * pl. Nanode VM $5/hó 1GB RAM 1 vCPU, 25GB SSD, 1TB transfer
   * pl. dedicated $30/hó 4GB RAM, 1 CPU, 80GB SSD, 4TB transfer
-* **$20-$100 credit kupon 90 napra**, talán $5 feltöltés kötelező
+* **$20-$100 credit kupon 60-90 napra**, talán $5 feltöltés kötelező
 
 ### UpCloud
 
@@ -230,12 +230,16 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 
 ### fly.io
 
-* https://fly.io/docs/about/pricing/
-* korlátlanul
+* https://www.fly.io/docs/about/pricing/#new-customers-get-a-free-trial
+* hitelkártya megadása kötelező
+* a legkisebb csomag $5/hó ami leforgalmazható, de csak azután kezdik levonni miután az egyszeri $5 trial credit elfogy fizetős forgalom útján
+
+Korlátlanul felármentesen:
+
 * 8,436,960 shared-cpu-1x másodperc/hó (3 VM 24/7)
 * 256MB RAM
-* 3GB tartós tárhely
-* 160GB/hó kimenő forgalom
+* összesen 3GB tartós tárhely: naponta mentve, de redundanciamentes, csak az adott régióban csatolható fel és csak egy VM-re egyszerre
+* 160GB/hó kimenő forgalom, bejövő ingyen
 
 ### Heroku
 
@@ -285,3 +289,20 @@ A következő pont vonatkozik rá a felhasználási feltételek szerint, bár ha
 ### Toys
 
 * https://toys.lerdorf.com/low-cost-vps-testing
+
+## TODO
+
+* https://toys.lerdorf.com/low-cost-vps-testing
+* https://www.openstack.org/marketplace/public-clouds/
+
+### GoDaddy
+### vCloud
+### Scaleway
+### Hetzner Cloud
+### Safe Swiss Cloud
+### GoGrid
+
+## Nincs
+
+### MCS.Mail.Ru (VK)
+### Rackspace
