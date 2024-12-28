@@ -6,6 +6,20 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 
 ## Korlátlan VM
 
+### BoxyBSD
+
+* https://boxybsd.com/services/CodeNerve.txt
+* https://boxybsd.com/signup-vps/CodeNerve.txt
+* https://boxybsd.com/faq/CodeNerve.txt
+* https://boxybsd.com/contact/CodeNerve.txt
+* https://boxybsd.com/CodeNerve.txt
+* https://boxybsd.com/sponsors/CodeNerve.txt
+* 1 vCPU, 10GB HDD, 1GB RAM, IPv6 /64 (/48)
+* 0 IPv4
+* freebsd, openbsd, netbsd
+
+> for individuals who want to learn and practice on BSD based systems but also for opensource projects
+
 ### Google Cloud Platform
 
 * https://cloud.google.com/free
