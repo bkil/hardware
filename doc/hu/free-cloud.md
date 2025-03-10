@@ -31,6 +31,21 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
   * GitLab regisztrációval Kubernetes integrációhoz +$200
   * https://about.gitlab.com/blog/2018/04/24/getting-started-gitlab-ci-gcp/
 
+### Mikrus Frog
+
+* https://frog.mikr.us/
+* https://wiki.mikr.us/frog/
+* https://wiki.mikr.us/frog/faq/
+* https://sklep.mikr.us/page/regulamin-frog
+* 3GB HDD
+* 256MB RAM
+* aldomain: `serwer-portszáµ.wykr.es`
+* LXC
+* Alpine
+* Finnország
+* 1 IPv6
+* 0 IPv4: NAT + ssh port + 3 random TCP port átirányítás
+
 ### Oracle Cloud
 
 * https://www.oracle.com/cloud/free/#free-cloud-trial
