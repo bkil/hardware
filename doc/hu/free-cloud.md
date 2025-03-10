@@ -39,7 +39,7 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * https://sklep.mikr.us/page/regulamin-frog
 * 3GB HDD
 * 256MB RAM
-* aldomain: `serwer-portszáµ.wykr.es`
+* aldomain: `serwer-portszám.wykr.es`
 * LXC
 * Alpine
 * Finnország
