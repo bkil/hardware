@@ -55,6 +55,28 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * **$300 ingyen kredit 30 napra**
   * max. 8 gép párhuzamosan
 
+### osuosl.org
+
+* https://osuosl.org/services/hosting/details/
+* https://osuosl.org/services/aarch64/
+
+managed:
+* web: PHP, Python, Ruby, MySQL, PostgreSQL
+* CI/CD, OpenCompute
+* FTP
+* email, Mailman
+* monitoring: Nagios, PagerDutyPrometheus, Grafana, Munin
+* rdiff-backup
+
+unmanaged:
+* AMD64, Aarch64, PPC64, PPC64LE
+* Ganeti
+* OpenStack
+* KVM
+* co-location
+
+> hosting for projects and communities involved with open source software development. The OSUOSL supports a large number of growing, high-impact open source communities. 
+
 ### euserv
 
 * https://www.euserv.com/en/virtual-private-server/root-vserver/v2/vs2-free.php
