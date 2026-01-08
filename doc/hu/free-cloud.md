@@ -39,7 +39,7 @@ Ezeket összeadva már számmottevő hozzájárulást lehetne tenni. Jó lenne e
 * https://sklep.mikr.us/page/regulamin-frog
 * 3GB HDD
 * 256MB RAM
-* aldomain: `serwer-portszám.wykr.es`
+* aldomain: `server-portszám.wykr.es`
 * LXC
 * Alpine
 * Finnország
@@ -65,7 +65,7 @@ managed:
 * CI/CD, OpenCompute
 * FTP
 * email, Mailman
-* monitoring: Nagios, PagerDutyPrometheus, Grafana, Munin
+* monitoring: Nagios, PagerDuty, Prometheus, Grafana, Munin
 * rdiff-backup
 
 unmanaged:
